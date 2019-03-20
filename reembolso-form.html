@@ -1,0 +1,343 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon/favicon-bupa.png"/>
+    <link rel="stylesheet" href="css/libs/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/libs/owl.carousel.css"/>
+    <link rel="stylesheet" href="css//libs/selectize.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/styleCB-dic.css"/>
+    <link rel="stylesheet" href="css/styles-mejora_reembolso.css"/>
+    <title>Cruz Blanca</title>
+  </head>
+  <body>
+    <div class="reembolso-form">
+      <div class="main-container">
+        <div class="hide-sm">
+          <header class="hide-sm">
+            <div class="header-desk">
+              <div class="header-box-brand"><img class="brand-logo" src="assets/imgs/logo-cb.png" alt=""/></div>
+              <div class="header-box-sesion">
+                <div class="sesion-user-data_avatar"><img src="assets/imgs/user-profile.png" alt=""/></div>
+                <div class="sesion-user-data">
+                  <div class="sesion-user-data_name">
+                    <p class="data-txt">Bienvenida</p>
+                    <p class="user-name">andrea lagos</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+          <nav class="menu-navbar hide-sm">
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Plan de Salud</a></li>
+              <li><a href="#">Cotizaciones</a></li>
+              <li><a href="#">Bonos</a></li>
+              <li><a href="#">Reembolsos</a></li>
+              <li><a href="#">Presupuetos</a></li>
+              <li><a class="active" href="#">Licencias médicas</a></li>
+              <li><a href="#">Ges/Caec</a></li>
+            </ul>
+          </nav>
+          <div class="breadcrumb hide-sm">
+            <ul>
+              <li><a class="txt-black" href="#">Inicio /</a></li>
+              <li><a class="txt-grey" href="#">Mis licencias médicas</a></li>
+            </ul>
+          </div>
+        </div>
+        <header class="hide-md hide-lg">
+          <div class="header-mo">
+            <div class="row">
+              <div class="box-icon_menu col-lg-3 col-md-3 col-sm-3 col-xs-3"><a href="#"><img src="assets/icons/icon-menu.svg" alt=""/></a></div>
+              <div class="box-logo col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="#"><img src="assets/imgs/logo-cb.png" alt=""/></a></div>
+              <div class="box-notification col-lg-3 col-md-3 col-sm-3 col-xs-3 center"><a href="#"><img src="assets/icons/icon-smsmovil.svg" alt=""/></a></div>
+            </div>
+          </div>
+        </header>
+        <div class="breadcrumb-mo hide-md hide-lg"><a href="#"><img src="assets/icons/icon-arrow-left.svg" alt=""/>
+            <p>Volver</p></a></div>
+        <section class="narrow-container">
+          <div class="reembolso-main">
+            <h1 class="section-title section-title_desk">Reembolso de atención médica</h1>
+            <h4 class="hide-md hide-lg">Datos para reembolso</h4>
+            <div class="hide-sm">
+              <p class="info-obligatory">* Información obligatoria </p>
+            </div>
+            <div class="carousel-users">
+              <h4 class="carousel-title section-subtitle">¿Para quién es el reembolso?</h4>
+              <div class="carousel owl-carousel owl-theme">
+                <div class="item">
+                  <div class="img_user"><img class="icon-user" src="./assets/icons/icon-paciente.svg"/></div>
+                  <div class="user-info"><span class="name">Eduardo Rojas Calderón</span><span class="relation">Titular</span></div>
+                </div>
+                <div class="item">
+                  <div class="img_user"><img class="icon-user" src="./assets/icons/icon-paciente.svg"/></div>
+                  <div class="user-info"><span class="name">Susana Caballero López</span><span class="relation">Esposa</span></div>
+                </div>
+                <div class="item">
+                  <div class="img_user"><img class="icon-user" src="./assets/icons/icon-paciente.svg"/></div>
+                  <div class="user-info"><span class="name">Francisco Rojas Caballero</span><span class="relation">Hijo</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="reembolso-info">
+              <div class="short-name key">
+                <h4 class="form-title">Agrega un nombre corto al reembolso</h4>
+                <p class="asterisc">*</p>
+                <input class="input-form inputShort" type="text" name="inputShort" placeholder="Ej. Gripe de Pablito" oninput="test()" onclick="test()" id="input-short-name"/>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <hr class="hide-md hide-lg"/>
+      <div class="main-container">
+        <div class="narrow-container">
+          <h4 class="section-subtitle hide-md hide-lg">Datos consulta</h4>
+          <div class="specialty">
+            <h4 class="form-title">¿Qué especialidad?</h4>
+            <p class="asterisc top">*</p>
+            <div class="specialty-input_desk">
+              <select class="demo-default especialidad-desk input-specialty" name="especialidad" id="input-specialty" placeholder="Seleccione su especialidad" onchange="test()" onclick="test()">
+                <option value="">Seleccione su especialidad</option>
+                <option value="Medicina general">Medicina general</option>
+                <option value="Psicología">Psicología</option>
+                <option value="Ginecología">Ginecología</option>
+              </select>
+            </div>
+            <div class="specialty-box specialty-box_op1">
+              <div class="flujo-lg">
+                <h4 class="section-subtitle hide-sm">Información consulta</h4>
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 item-form">
+                    <div class="date-form">
+                      <label class="form-label date-label" for="date">Fecha de atención</label>
+                      <p class="asterisc">*</p>
+                      <input class="input-form input-date input-validate" type="text" name="date" placeholder="dd/mm/aaaa" autocomplete="off" readonly="true" id="date"/>
+                      <div class="alert_date hide-md hide-lg"><img src="./assets/icons/icon-alert.svg"/>
+                        <p>Fecha máxima: 28/09/2017</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 item-form">
+                    <div class="amount-form">
+                      <label class="form-label" for="amount">Monto solicitado a reembolsar</label>
+                      <p class="asterisc">*</p>
+                      <input class="input-form input-validate" type="text" onkeypress="return validaNUM(event)" name="amount" placeholder="$ 000.000" id="amount"/>
+                    </div><br/>
+                    <div class="hide-lg hide-md">
+                      <p class="info-obligatory-mo">* Son obligatorios</p>
+                    </div>
+                  </div>
+                  <h4 class="section-subtitle hide-md hide-lg">Información consulta</h4><a class="verModal" data-toggle="modal" data-target="#boletaModalRut">
+                    <div class="care left hide-md hide-lg"><span>Ejemplo boleta de atención médica</span><img src="./assets/icons/icon-ojo.svg"/></div></a>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 item-form">
+                    <div class="invoice-form">
+                      <label class="form-label" for="invoice">Nº de boleta</label>
+                      <p class="asterisc">*</p>
+                      <input class="input-form input-validate" type="text" onkeypress="return validaNUM(event)" name="invoice" placeholder="Últimos 10 dígitos" id="invoice"/>
+                    </div><a class="verModal" data-toggle="modal" data-target="#boletaModalRut">
+                      <div class="care left hide-sm"><span>Boleta de atención médica</span><img src="./assets/icons/icon-ojo.svg"/></div></a>
+                    <div class="modal fade" id="boletaModalRut" tabindex="-1" role="dialog" aria-labelledby="reembolsoModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="reembolsoModalLabel">Ejemplo Boleta</h5>
+                            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="modal-title_serie">
+                              <p>Boleta Centro Médico</p>
+                            </div>
+                            <div class="modal-info_boleta"><img src="assets/imgs/boleta-modelo.jpeg"/></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 item-form">
+                    <div class="rut-form">
+                      <label class="form-label" for="rut">RUT del prestador</label>
+                      <p class="asterisc">*</p>
+                      <input class="input-form input_rut input-validate" type="text" name="rut" placeholder="10.256.731-4" id="rut"/>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 item-form doctor-form-box">
+                    <div class="doctor-form">
+                      <label class="form-label" for="doctor">RUT del médico</label>
+                      <input class="input-form input_rut" type="text" name="doctor" placeholder="8.770.764-5" id="doctor"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 no-padding">
+                  <div class="excedentes-box">
+                    <div class="form-group">
+                      <label class="form-check-label" for="excLg">
+                        <div class="col-cbx">
+                          <input class="form-check-input" type="checkbox" name="cbxExc" id="excLg" onchange="usarExcedentes(this);"/><span class="checkmark"></span>
+                        </div>
+                        <div class="col-txt"> <span class="term_txt">Quiero usar mis excedentes para complementar mi reembolso </span><a class="termExc" href="#" target="_blank">Términos y Condiciones</a>
+                          <p class="excLgClass exc">Tienes <span class="strong">$60.000</span> disponibles en excedentes</p>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hide-lg hide-md">
+                <p class="info-obligatory-mo">* Son obligatorios</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mejoras-container">
+          <div class="adjuntar-box">
+            <h4>Adjunta la boleta o factura</h4>
+            <p>Recuerda que debes realizar <span>una solicitud por cada boleta</span> que desees reembolsar.</p>
+            <div class="box-indicaciones_green">
+              <h5>El archivo que adjuntes requiere:</h5>
+              <ul> 
+                <li>Imagen limpia</li>
+                <li>Datos del médico legibles</li>
+                <li>Buena iluminación</li>
+                <li>Solo imagen de la boleta</li>
+                <li>Imagen de frente y <span>no en perspectiva</span></li>
+              </ul><a data-toggle="modal" data-target="#boletaModelo">Ejemplo de boleta</a>
+            </div>
+            <div class="box-adjuntar_boton">
+              <div class="box-adjuntar_boton-inner">
+                <h5><span>*</span> Debes adjuntar archivos</h5>
+                <h6>Comprobante de pago</h6>
+                <h6>Documento con detalle de Atención Médica</h6>
+              </div>
+              <label class="btn-adjuntar"><img src="./assets/icons/icon-camara.svg"/>Adjuntar
+                <input type="file"/>
+              </label>
+            </div>
+            <div class="box-adjuntar_documento-vacio">
+              <div class="box-dashed">No hay archivos adjuntos</div>
+            </div>
+            <div class="box-adjuntar_documento-cargado hide">
+              <div class="box-adjuntar_documento-cargado-texto">
+                <h5>1| Boleta.jpg</h5><img class="deleteDoc" src="./assets/icons/icon_trash.svg"/>
+              </div>
+              <div class="box-adjuntar_documento-cargado-img"><img src="./assets/imgs/boleta-real.png"/></div>
+            </div>
+            <div class="box-adjuntar_documento-advertencia">
+              <h4>¡Importante!</h4>
+              <h6>Para solicitar tu reembolso debes adjuntar comprobante de pago, boleta o factura</h6>
+              <h6>El tamaño máximo es de <span>4Mb</span> por cada archivo.</h6>
+              <h6>Formatos autorizados: <span>.jpg, .bmp, .tif, .gif, .png, .pdf, doc, docs, ppt y pptx</span></h6>
+            </div>
+            <div class="modalMejoras modal fade" id="boletaModelo" tabindex="-1" role="dialog" aria-labelledby="reembolsoModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2>Ejemplo Boleta</h2>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                  </div>
+                  <div class="modal-body">
+                    <h4>Boleta Centro Médico</h4>
+                    <div class="modal-info_boleta"><img src="assets/imgs/boleta-ej.png" alt="Los datos de la boleta deben mostrarse legibles: Rut Centro Médico, fecha, Nº boleta, Rut del médico y monto total"/></div>
+                    <button data-dismiss="modal" aria-label="Close">Cerrar ventana</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="specialty-box specialty-box_op2 hide">
+              <div class="row">
+                <div class="col-12 no-padding">
+                  <div class="excedentes-box">
+                    <div class="form-group">
+                      <label class="form-check-label" for="excSm">
+                        <div class="col-cbx">
+                          <input class="form-check-input" type="checkbox" name="cbxExc" id="excSm" onchange="usarExcedentes(this);"/><span class="checkmark"></span>
+                        </div>
+                        <div class="col-txt"> <span class="term_txt">Quiero usar mis excedentes para complementar mi reembolso </span><a class="termExc" href="#" target="_blank">Términos y Condiciones</a>
+                          <p class="excSmClass exc">Tienes <span class="strong">$60.000</span> disponibles en excedentes</p>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hide-lg hide-md">
+                <p class="info-obligatory-mo">* Son obligatorios</p>
+              </div>
+            </div>
+            <div class="specialty-box specialty-box_op3 hide">
+              <div class="flujo-md"> 
+                <h4 class="section-subtitle hide-sm">Información consulta</h4>
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 item-form">
+                    <div class="amount-form">
+                      <label class="form-label" for="amount2">Monto solicitado a reembolsar</label>
+                      <p class="asterisc">*</p>
+                      <input class="input-form input-validate" type="text" onkeypress="return validaNUM(event)" name="amount2" placeholder="$ 000.000" id="amount2"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 no-padding">
+                  <div class="excedentes-box">
+                    <div class="form-group">
+                      <label class="form-check-label" for="excMd">
+                        <div class="col-cbx">
+                          <input class="form-check-input" type="checkbox" name="cbxExc" id="excMd" onchange="usarExcedentes(this);"/><span class="checkmark"></span>
+                        </div>
+                        <div class="col-txt"> <span class="term_txt">Quiero usar mis excedentes para complementar mi reembolso </span><a class="termExc" href="#" target="_blank">Términos y Condiciones</a>
+                          <p class="excMdClass exc">Tienes <span class="strong">$60.000</span> disponibles en excedentes</p>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hide-lg hide-md">
+                <p class="info-obligatory-mo">* Son obligatorios</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn-next" type="button" id="btnMostrarCampos">Siguiente</button>
+      </div>
+    </div>
+    <div class="validacion">
+      <ul></ul>
+    </div>
+    <div class="hide-sm">
+      <div class="main-container">
+        <div class="navbar-bottom hide-sm"><a href="#">
+            <div class="navbar-bottom-return"><img src="assets/icons/icon-volverizq.svg" alt=""/>
+              <p>Volver</p>
+            </div></a></div>
+      </div>
+    </div>
+  </body>
+  <div class="hide-md hide-lg">
+    <div class="footer-floating-option"><img src="assets/icons/icon-asistente.svg" alt=""/></div>
+    <footer class="footer-mo">
+      <div class="footer-brand-logo"><img src="assets/imgs/logo-cb-footer.png" alt=""/></div>
+      <div class="footer-comunication"><a class="phone" href="#"><img src="assets/imgs/phone.png" alt=""/></a><a class="whatsapp" href="#"><img src="assets/imgs/wsp.png" alt=""/></a><a class="location" href="#"><img src="assets/imgs/location.png" alt=""/></a></div>
+    </footer>
+  </div>
+</html>
+<script src="js/libs/jquery-3.3.1.min.js"></script>
+<script src="js/libs/bootstrap.min.js"></script>
+<script src="js/libs/owl.carousel.js"></script>
+<script src="js/libs/jquery-ui.min.js"></script>
+<script src="js/libs/jquery.rut.chileno.js"></script>
+<script src="js/libs/selectize.min.js"></script>
+<script src="js/funciones-mejoras.js"></script>
